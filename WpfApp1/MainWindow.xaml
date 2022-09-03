@@ -1,0 +1,107 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" 
+       >
+    <!--<Grid>
+
+        --><!--<StackPanel HorizontalAlignment="Center" Name="stck" Orientation="Horizontal">
+            --><!--<Button Margin="10,30,5,1" Height="50" Content="Salam" ></Button>
+            <Button Height="50" >Salam</Button>
+            <Button Height="50" >Salam</Button>-->
+
+
+            <!--<Button FontSize="30" Padding="20,30">Salam SalamSalamSalamSalamSalamSalamSalamSalamSalamSalam</Button>-->
+
+
+
+            <!--<Label VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="200" Height="50" Margin="10" Background="Orange" >1</Label>
+            <Label Visibility="Collapsed" VerticalAlignment="Top" Width="200" Height="50" Margin="10" Background="Pink" >1</Label>
+            <Label Height="50" Margin="10" Width="200" Background="SpringGreen" >1</Label>
+            <Label Height="50" Margin="10" Width="200" Background="DeepSkyBlue" >1</Label>-->
+
+
+
+            <!--<Label Name="mylabel" Height="50" Margin="100,0,0,0" Width="200" Background="DeepSkyBlue" Content="1" VerticalAlignment="Center" >
+                <Label.RenderTransform>
+                    --><!--<RotateTransform Angle="30" >
+                        
+                    </RotateTransform>-->
+                    <!--<ScaleTransform ScaleX="1.5" ScaleY="4" ></ScaleTransform>--><!--
+                    <SkewTransform AngleX="0" ></SkewTransform>
+                </Label.RenderTransform>
+            </Label>-->
+
+
+            <!--<Label Name="mylabel" Height="50" Margin="100,0,0,0" Width="200" Background="DeepSkyBlue" Content="1" VerticalAlignment="Center" >
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="30" >
+
+                        </RotateTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="4" ></ScaleTransform>
+
+                        <SkewTransform AngleX="0" ></SkewTransform>
+                    </TransformGroup>
+            
+                </Label.RenderTransform>
+            </Label>--><!--
+
+
+            <CheckBox Foreground="Red" Content="Salam" BorderBrush="DeepPink" BorderThickness="5" Width="50" Height="50" Background="Yellow" >
+                <CheckBox.RenderTransform>
+                    <ScaleTransform ScaleX="3" ScaleY="3" ></ScaleTransform>
+                </CheckBox.RenderTransform>
+            </CheckBox>
+
+        </StackPanel>-->
+
+
+        <!--<Ellipse Fill="Red" Width="200" Height="200" StrokeThickness="10" Stroke="SpringGreen"></Ellipse>-->
+        <!--<Rectangle Width="300" Height="100" Fill="Yellow" RadiusX="10" RadiusY="10" ></Rectangle>--><!--
+        
+    </Grid>-->
+
+
+    <!--<Grid>
+    <Rectangle Fill="SpringGreen"  RadiusX="30" RadiusY="30">
+        
+    </Rectangle>
+        
+    <Canvas>
+        <Button Click="Button_Click" Canvas.Right="30" Canvas.Top="30" FontSize="30" Padding="10" Background="SpringGreen" Foreground="Red" FontWeight="ExtraBlack">X</Button>
+    </Canvas>    
+    </Grid>-->
+
+
+    <!--<Canvas Background="Goldenrod" >
+        <Button Width="100" Height="100"
+                Canvas.Bottom="30" Canvas.Right="40" >
+            <Canvas Background="LightBlue"
+                    Width="50" Height="50" >
+                <Button Width="20" Height="20" Background="DeepPink" Canvas.Left="15" Canvas.Top="15" ></Button>
+            </Canvas>
+        </Button>
+    </Canvas>-->
+
+
+    <!--<Canvas>
+        <Ellipse Panel.ZIndex="30" Canvas.Left="-150" Canvas.Top="-20" Width="300" Height="450" Fill="DeepSkyBlue" ></Ellipse>
+        <Ellipse Panel.ZIndex="20" Canvas.Left="-100" Canvas.Top="-20" Width="300" Height="450" Fill="DeepPink" ></Ellipse>
+        <Ellipse Panel.ZIndex="10" Canvas.Left="-50" Canvas.Top="-20" Width="300" Height="450" Fill="Orange" ></Ellipse>
+        
+        <Ellipse Panel.ZIndex="5" Canvas.Left="0" Canvas.Top="-400" Width="800" Height="450" Fill="DeepSkyBlue" ></Ellipse>
+        <Ellipse Panel.ZIndex="4" Canvas.Left="0" Canvas.Top="-310" Width="800" Height="450" Fill="DeepPink" ></Ellipse>
+        <Ellipse Panel.ZIndex="2" Canvas.Left="0" Canvas.Top="-240" Width="800" Height="450" Fill="Orange" ></Ellipse>
+    </Canvas>-->
+    
+    
+    
+    
+    
+    
+</Window>
